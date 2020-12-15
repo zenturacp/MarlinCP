@@ -19,6 +19,12 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
+
+/**
+ * Changelog Christian Pedersen
+ * 15/12-2020 disable S_CURVE_ACCELERATION
+ */
+
 #pragma once
 
 // #define CONFIG_EXAMPLES_DIR "Creality/Ender-3 V2"
@@ -822,7 +828,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+// #define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
